@@ -10,11 +10,11 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.security.core.userdetails.User;
 
 public interface OperatorRepository extends Repository<Operator, Integer> {
-	/**
-	 * s checks that if a user exists or not, if a valid {@link User} entry
+	/**s
+	 * checks that if a user exists or not, if a valid {@link User} entry
 	 * returns that means this user exists.If this function returns
 	 * <code>false</code>, that means the user does not exists.
-	 *
+	 * 
 	 * @param user
 	 *            {@link User}
 	 * @return true if user exists otherwise false.
