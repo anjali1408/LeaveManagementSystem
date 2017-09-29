@@ -1,18 +1,17 @@
 package main.java.com.nagarro.leavemanagement.services.impl;
 
-import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Service;
-
 import main.java.com.nagarro.leavemanagement.dao.OperatorDao;
 import main.java.com.nagarro.leavemanagement.models.Operator;
 import main.java.com.nagarro.leavemanagement.services.LoginService;
 
+import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 /**
  * The Class {@link LoginServiceImpl} cab be used to perform operations related
  * to databases.
- * 
+ *
  * @author nagarro
  * @version 1.0
  */
