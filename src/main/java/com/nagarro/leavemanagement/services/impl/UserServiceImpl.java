@@ -3,7 +3,6 @@ package main.java.com.nagarro.leavemanagement.services.impl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import main.java.com.nagarro.leavemanagement.dao.OperatorDao;
@@ -20,7 +19,6 @@ import main.java.com.nagarro.leavemanagement.services.UserService;
 @Service("userService")
 public class UserServiceImpl implements UserService {
 	@Autowired(required=true)
-	@Qualifier("operatorDao")
 	private OperatorDao operatorDao;
 
 	

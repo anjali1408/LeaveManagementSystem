@@ -19,7 +19,6 @@ import main.java.com.nagarro.leavemanagement.services.LoginService;
 @Service("loginService")
 public class LoginServiceImpl implements LoginService {
 	@Autowired(required = true)
-	@Qualifier("operatorDao")
 	private OperatorDao operatorDao;
 
 	// public void setUserDao(OperatorDao userDao) {
